@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 确保画布占满屏幕 */
+html,
+body,
+#root {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    /* 防止出现滚动条 */
+}
